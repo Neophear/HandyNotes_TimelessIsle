@@ -30,6 +30,7 @@ ns.optionDefaults = {
         always_show_treasures = false,
         hide_done_rare = false,
         hide_minimap = false,
+		hide_when_killed = false,
 
         -- tooltip
         show_loot = true,
@@ -130,6 +131,14 @@ ns.options.args.VisibilityGroup = {
             name = L["options_toggle_hide_minimap"],
             desc = L["options_toggle_hide_minimap_desc"],
             order = 36,
+            width = "full",
+        },
+        hide_killed_rare = {
+            type = "toggle",
+            arg = "hide_killed_rare",
+            name = L["options_toggle_hide_killed_rare"],
+            desc = L["options_toggle_hide_killed_rare_desc"],
+            order = 37,
             width = "full",
         },
     },

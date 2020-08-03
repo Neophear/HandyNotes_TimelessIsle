@@ -169,146 +169,148 @@ nodes[70608090] = Treasure({quest=32970, icon="star_chest", label="Gleaming Trea
 
 
 -- Rares
-nodes[37004300] = Rare({id=73158, label="Emerald Gander", note="All around the Celestial Court. Kill Brilliant Windfeather mobs until it spawns.", rewards={
+nodes[37004300] = Rare({id=73158, label="Emerald Gander", quest=33295, note="All around the Celestial Court. Kill Brilliant Windfeather mobs until it spawns.", rewards={
     Achievement({id=8714, criteria=23967}),  -- Kill
 }});
-nodes[24805500] = Rare({id=73161, label="Great Turtle Furyshell", note="All around the west side of the island. Kill Great Turtle mobs until it spawns.", rewards={
+nodes[24805500] = Rare({id=73161, label="Great Turtle Furyshell", quest=33297, note="All around the west side of the island. Kill Great Turtle mobs until it spawns.", rewards={
     Achievement({id=8714, criteria=23969}),  -- Kill
     Achievement({id=8728, criteria=24072}),  -- Hardened Shell
 }});
-nodes[38007500] = Rare({id=72909, label="Gu'chi the Swarmbringer", rewards={
+nodes[38007500] = Rare({id=72909, label="Gu'chi the Swarmbringer", quest=33294, rewards={
     Achievement({id=8714, criteria=23970}),  -- Kill
     Achievement({id=8728, criteria={24047, 24046}}),  -- Swarmling of Gu'chi, Sticky Silkworm Goo
     Pet({id=1345, item=104291}),  -- Swarmling of Gu'chi
 }});
-nodes[47008700] = Rare({id=72245, label="Zesqua", rewards={
+nodes[47008700] = Rare({id=72245, label="Zesqua", quest=33316, rewards={
     Achievement({id=8714, criteria=23971}),  -- Kill
     Achievement({id=8728, criteria=24056}),  -- Rain Stone
 }});
-nodes[37557731] = Rare({id=71919, label="Zhu-Gon Sour", rewards={
+nodes[37557731] = Rare({id=71919, label="Zhu-Gon Sour", quest=32959, rewards={
     Achievement({id=8714, criteria=23972}),  -- Kill
     Achievement({id=8728, criteria=24032}),  -- Skunky Alemental
 }});
-nodes[34088384] = Rare({id=72193, label="Karkanos", rewards={
+nodes[34088384] = Rare({id=72193, label="Karkanos", quest=33292, rewards={
     Achievement({id=8714, criteria=23973}),  -- Kill
     Achievement({id=8728, criteria=24079}),  -- Giant Purse of Timeless Coins
 }});
-nodes[25063598] = Rare({id=72045, label="Chelon", rewards={
+nodes[25063598] = Rare({id=72045, label="Chelon", quest=32966, rewards={
     Achievement({id=8714, criteria=23974}),  -- Kill
 }});
+--Could not find a tracking quest for this rare
 nodes[59004880] = Rare({id=71864, label="Spelurk", rewards={
     Achievement({id=8714, criteria=23975}),  -- Kill
     Achievement({id=8728, criteria=24064}),  -- Cursed Talisman
 }});
-nodes[43896989] = Rare({id=72049, label="Cranegnasher", rewards={
+nodes[43896989] = Rare({id=72049, label="Cranegnasher", quest=32967, rewards={
     Achievement({id=8714, criteria=23976}),  -- Kill
     Achievement({id=8728, criteria=24041}),  -- Pristine Stalker Hide
 }});
+--Could not find a tracking quest for this rare
 nodes[61008860] = Rare({id=72048, label="Rattleskew", rewards={
     Achievement({id=8714, criteria=23977}),  -- Kill
     Achievement({id=8728, criteria=24065}),  -- Captain Zvezdan's Lost Leg
 }});
-nodes[50008700] = Rare({id=73166, label="Monstrous Spineclaw", note="All around the island. Kill Ancient Spineclaw mobs until it spawns.", rewards={
+nodes[50008700] = Rare({id=73166, label="Monstrous Spineclaw", note="All around the island. Kill Ancient Spineclaw mobs until it spawns.", quest=33302, rewards={
     Achievement({id=8714, criteria=23985}),  -- Kill
     Achievement({id=8728, criteria=24033}),  -- Spineclaw Crab
     Pet({id=1337, item=104168}),  -- Spineclaw Crab
 }});
-nodes_lostspirits[48006100] = Rare({id=72769, label="Spirit of Jadefire", rewards={
+nodes_lostspirits[48006100] = Rare({id=72769, label="Spirit of Jadefire", quest=33293, rewards={
     Achievement({id=8714, criteria=23978}),  -- Kill
     Achievement({id=8728, criteria={24060, 24037}}),  -- Jadefire Spirit, Glowing Green Ash
     Pet({id=1348, item=104307}),  -- Jadefire Spirit
 }});
-nodes[44003800] = Rare({id=72769, label="Spirit of Jadefire", note="Located inside the cave below.", rewards={
+nodes[44003800] = Rare({id=72769, label="Spirit of Jadefire", note="Located inside the cave below.", quest=33293, rewards={
     Achievement({id=8714, criteria=23978}),  -- Kill
     Achievement({id=8728, criteria={24060, 24037}}),  -- Jadefire Spirit, Glowing Green Ash
     Pet({id=1348, item=104307}),  -- Jadefire Spirit
 }});
-nodes[67004300] = Rare({id=73277, label="Leafmender", rewards={
+nodes[67004300] = Rare({id=73277, label="Leafmender", quest=33298, rewards={
     Achievement({id=8714, criteria=23979}),  -- Kill
     Achievement({id=8728, criteria=24025}),  -- Ashleaf Spriteling
     Pet({id=1323, item=104156}),  -- Ashleaf Spriteling
 }});
-nodes[66577009] = Rare({id=72775, label="Bufo", rewards={
+nodes[66577009] = Rare({id=72775, label="Bufo", quest=33301, rewards={
     Achievement({id=8714, criteria=23986}),  -- Kill
     Achievement({id=8728, criteria=24034}),  -- Gulp Froglet
     Pet({id=1338, item=104169}),  -- Gulp Froglet
 }});
-nodes[64002700] = Rare({id=73282, label="Garnia", rewards={
+nodes[64002700] = Rare({id=73282, label="Garnia", quest=33300, rewards={
     Achievement({id=8714, criteria=23982}),  -- Kill
     Achievement({id=8728, criteria=24027}),  -- Ruby Droplet
     Pet({id=1328, item=104159}),  -- Ruby Droplet
 }});
-nodes[54094240] = Rare({id=72808, label="Tsavo'ka", rewards={
+nodes[54094240] = Rare({id=72808, label="Tsavo'ka", quest=33304, rewards={
     Achievement({id=8714, criteria=23983}),  -- Kill
     Achievement({id=8728, criteria=24041}),  -- Pristine Stalker Hide
 }});
-nodes[71588185] = Rare({id=73704, label="Stinkbraid", rewards={
+nodes[71588185] = Rare({id=73704, label="Stinkbraid", quest=33305, rewards={
     Achievement({id=8714, criteria=24144}),  -- Kill
 }});
-nodes_lostspirits[42923211] = Rare({id=73157, label="Rock Moss", rewards={
+nodes_lostspirits[42923211] = Rare({id=73157, label="Rock Moss", quest=33307, rewards={
     Achievement({id=8714, criteria=23980}),  -- Kill
     Achievement({id=8728, criteria=24063}),  -- Golden Moss
 }});
-nodes[46003800] = Rare({id=73157, label="Rock Moss", note="Located inside the cave below.", rewards={
+nodes[46003800] = Rare({id=73157, label="Rock Moss", note="Located inside the cave below.", quest=33307, rewards={
     Achievement({id=8714, criteria=23980}),  -- Kill
     Achievement({id=8728, criteria=24063}),  -- Golden Moss
 }});
-nodes[57007200] = Rare({id=73170, label="Watcher Osu", rewards={
+nodes[57007200] = Rare({id=73170, label="Watcher Osu", quest=33322, rewards={
     Achievement({id=8714, criteria=23992}),  -- Kill
     Achievement({id=8728, criteria=24058}),  -- Ashen Stone
 }});
-nodes[52008100] = Rare({id=73169, label="Jakur of Ordon", rewards={
+nodes[52008100] = Rare({id=73169, label="Jakur of Ordon", quest=33306, rewards={
     Achievement({id=8714, criteria=23994}),  -- Kill
     Achievement({id=8728, criteria=24068}),  -- Warning Sign
     Toy({item=104331}),  -- Warning Sign
 }});
-nodes[62524383] = Rare({id=73171, label="Champion of the Black Flame", rewards={
+nodes[62524383] = Rare({id=73171, label="Champion of the Black Flame", quest=33299, rewards={
     Achievement({id=8714, criteria=23996}),  -- Kill
     Achievement({id=8728, criteria={24079, 24055}}),  -- Big Bag of Herbs, Blackflame Daggers
     Toy({item=104302}),  -- Blackflame Daggers
 }});
-nodes[52954988] = Rare({id=73175, label="Cinderfall", rewards={
+nodes[52954988] = Rare({id=73175, label="Cinderfall", quest=33310, rewards={
     Achievement({id=8714, criteria=23981}),  -- Kill
     Achievement({id=8728, criteria={24054, 24038}}),  -- Falling Flame, Glowing Blue Ash
 }});
-nodes[43002500] = Rare({id=73173, label="Urdur the Cauterizer", rewards={
+nodes[43002500] = Rare({id=73173, label="Urdur the Cauterizer", quest=33308, rewards={
     Achievement({id=8714, criteria=23993}),  -- Kill
     Achievement({id=8728, criteria=24059}),  -- Sunset Stone
 }});
-nodes[44003400] = Rare({id=73172, label="Flintlord Gairan", rewards={
+nodes[44003400] = Rare({id=73172, label="Flintlord Gairan", quest=33309, rewards={
     Achievement({id=8714, criteria=23995}),  -- Kill
     Achievement({id=8728, criteria=24053}),  -- Ordon Death Chime
 }});
-nodes[65875660] = Rare({id=73167, label="Huolon", rewards={
+nodes[65875660] = Rare({id=73167, label="Huolon", quest=33311, rewards={
     Achievement({id=8714, criteria=23984}),  -- Kill
     Achievement({id=8728, criteria=24081}),  -- Reins of the Thundering Onyx Cloud Serpent
     Mount({id=561, item=104269}),  -- Thundering Onyx Cloud Serpent
 }});
-nodes[62506350] = Rare({id=72970, label="Golganarr", rewards={
+nodes[62506350] = Rare({id=72970, label="Golganarr", quest=33315, rewards={
     Achievement({id=8714, criteria=23988}),  -- Kill
     Achievement({id=8728, criteria={24040, 24039}}),  -- Glinting Pile of Stone, Odd Polished Stone
     Toy({item=104262}),  -- Odd Polished Stone
 }});
-nodes[19005800] = Rare({id=73279, label="Evermaw", rewards={
+nodes[19005800] = Rare({id=73279, label="Evermaw", quest=33313, rewards={
     Achievement({id=8714, criteria=23990}),  -- Kill
 }});
-nodes[28802450] = Rare({id=73281, label="Dread Ship Vazuvius", rewards={
+nodes[28802450] = Rare({id=73281, label="Dread Ship Vazuvius", quest=33314, rewards={
     Achievement({id=8714, criteria=23987}),  -- Kill
     Achievement({id=8728, criteria=24050}),  -- Rime of the Time-Lost Mariner
     Toy({item=104294}),  -- Rime of the Time-Lost Mariner
 }});
 
-nodes[34403250] = Rare({id=73666, label="Archiereus of Flame", rewards={
+nodes[34403250] = Rare({id=73666, label="Archiereus of Flame", quest=33312, rewards={
     -- Criterion ID is bugged and returns 0
 }});
 
-nodes[31004300] = Rare({id=73163, label="Imperial Python", note="All around the Celestial Court. Kill Death Adder mobs until it spawns.", rewards={
+nodes[31004300] = Rare({id=73163, label="Imperial Python", note="All around the Celestial Court. Kill Death Adder mobs until it spawns.", quest=33303, rewards={
     Achievement({id=8714, criteria=23989}),  -- Kill
     Achievement({id=8728, criteria=24029}),  -- Death Adder Hatchling
     Pet({id=1330, item=104161}),  -- Death Adder Hatchling TODO: figure out id
 }});
 
-nodes[34004300] = Rare({id=73160, label="Ironfur Steelhorn", note="All around the Celestial Court. Kill Ironfur Great Bull mobs until it spawns.", rewards={
+nodes[34004300] = Rare({id=73160, label="Ironfur Steelhorn", note="All around the Celestial Court. Kill Ironfur Great Bull mobs until it spawns.", quest=33296, rewards={
     Achievement({id=8714, criteria=23968}),  -- Kill
 }});
 

@@ -184,6 +184,12 @@ end
 function Rare:enabled (db, mapID, coord, minimap)
     if db.profile.hide_done_rare and self:done() then return false end
     if db.profile.always_show_rares then return true end
+	
+	if db.profile.hide_killed_rare then
+		for i, quest in ipairs(self.quest or {}) do
+			if IsQuestFlaggedCompleted(quest) then return false end
+		end
+	end
     return NPC.enabled(self, db, mapID, coord, minimap)
 end
 

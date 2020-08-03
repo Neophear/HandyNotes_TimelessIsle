@@ -104,6 +104,8 @@ L["options_toggle_looted_treasures"] = "Already looted Treasures";
 L["options_toggle_looted_treasures_desc"] = "Show every treasure regardless of looted status";
 L["options_toggle_hide_done_rare"] = "Hide rare, if all loot known";
 L["options_toggle_hide_done_rare_desc"] = "Hide all rares for which all loot is known.";
+L["options_toggle_hide_killed_rare"] = "Hide rare, if it has been killed";
+L["options_toggle_hide_killed_rare_desc"] = "Hide all rares that has been killed today.";
 L["options_toggle_hide_minimap"] = "Hide all icons on the minimap";
 L["options_toggle_hide_minimap_desc"] = "Hides all icons from this addon on the minimap and displays them only on the main map.";
 
